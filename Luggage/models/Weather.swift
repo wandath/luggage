@@ -6,7 +6,14 @@
 //
 
 import Foundation
+import WeatherKit
 
 final class Weather {
+    var meteo: WeatherCondition
+    var travelId: UUID
     
+    init(meteo: WeatherCondition, travelId: UUID) {
+        self.meteo = meteo
+        self.travelId = travelId
+    }
 }
