@@ -9,12 +9,12 @@ import Foundation
 
 final class List {
     var type: String
-    var itemId: Int
+    var item: Item
     var travelId: UUID
     
-    init(type: String, itemId: Int, travelId: UUID) {
+    init(type: String, item: Item, travelId: UUID) {
         self.type = type
-        self.itemId = itemId
+        self.item = item
         self.travelId = travelId
     }
 }

@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hi")
+        HStack(alignment: .top, spacing: 12, content: {
+            Text("Element 1 Spacing")
+            Text("Element 2 Spacing")
+            Text("Element 3 Spacing")
+        })
+        
+        
     }
 }
 

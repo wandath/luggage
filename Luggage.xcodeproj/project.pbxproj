@@ -15,6 +15,8 @@
 		FF8B913F2A38615B00FBE77B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B913E2A38615B00FBE77B /* Weather.swift */; };
 		FF8B91412A3871CE00FBE77B /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B91402A3871CE00FBE77B /* List.swift */; };
 		FF8B91432A38723700FBE77B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B91422A38723700FBE77B /* Item.swift */; };
+		FF8B91462A38A0C600FBE77B /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B91452A38A0C500FBE77B /* Shape.swift */; };
+		FF8B914A2A38B00700FBE77B /* LuggageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B91492A38B00700FBE77B /* LuggageList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		FF8B913E2A38615B00FBE77B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		FF8B91402A3871CE00FBE77B /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		FF8B91422A38723700FBE77B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FF8B91452A38A0C500FBE77B /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		FF8B91492A38B00700FBE77B /* LuggageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuggageList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +63,13 @@
 		FF8B912C2A385FB900FBE77B /* Luggage */ = {
 			isa = PBXGroup;
 			children = (
+				FF8B91442A38A0B900FBE77B /* helpers */,
 				FF8B913B2A38600800FBE77B /* models */,
 				FF8B912D2A385FB900FBE77B /* LuggageApp.swift */,
 				FF8B912F2A385FB900FBE77B /* ContentView.swift */,
 				FF8B91312A385FBB00FBE77B /* Assets.xcassets */,
 				FF8B91332A385FBB00FBE77B /* Preview Content */,
+				FF8B91492A38B00700FBE77B /* LuggageList.swift */,
 			);
 			path = Luggage;
 			sourceTree = "<group>";
@@ -85,6 +91,14 @@
 				FF8B91422A38723700FBE77B /* Item.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		FF8B91442A38A0B900FBE77B /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B91452A38A0C500FBE77B /* Shape.swift */,
+			);
+			path = helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +174,9 @@
 				FF8B913F2A38615B00FBE77B /* Weather.swift in Sources */,
 				FF8B913D2A38603500FBE77B /* Travel.swift in Sources */,
 				FF8B91302A385FB900FBE77B /* ContentView.swift in Sources */,
+				FF8B91462A38A0C600FBE77B /* Shape.swift in Sources */,
 				FF8B91412A3871CE00FBE77B /* List.swift in Sources */,
+				FF8B914A2A38B00700FBE77B /* LuggageList.swift in Sources */,
 				FF8B91432A38723700FBE77B /* Item.swift in Sources */,
 				FF8B912E2A385FB900FBE77B /* LuggageApp.swift in Sources */,
 			);
