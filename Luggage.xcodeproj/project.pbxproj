@@ -13,6 +13,8 @@
 		FF8B91352A385FBB00FBE77B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8B91342A385FBB00FBE77B /* Preview Assets.xcassets */; };
 		FF8B913D2A38603500FBE77B /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B913C2A38603500FBE77B /* Travel.swift */; };
 		FF8B913F2A38615B00FBE77B /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B913E2A38615B00FBE77B /* Weather.swift */; };
+		FF8B91412A3871CE00FBE77B /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B91402A3871CE00FBE77B /* List.swift */; };
+		FF8B91432A38723700FBE77B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B91422A38723700FBE77B /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		FF8B91342A385FBB00FBE77B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF8B913C2A38603500FBE77B /* Travel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel.swift; sourceTree = "<group>"; };
 		FF8B913E2A38615B00FBE77B /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		FF8B91402A3871CE00FBE77B /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		FF8B91422A38723700FBE77B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				FF8B913C2A38603500FBE77B /* Travel.swift */,
 				FF8B913E2A38615B00FBE77B /* Weather.swift */,
+				FF8B91402A3871CE00FBE77B /* List.swift */,
+				FF8B91422A38723700FBE77B /* Item.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 				FF8B913F2A38615B00FBE77B /* Weather.swift in Sources */,
 				FF8B913D2A38603500FBE77B /* Travel.swift in Sources */,
 				FF8B91302A385FB900FBE77B /* ContentView.swift in Sources */,
+				FF8B91412A3871CE00FBE77B /* List.swift in Sources */,
+				FF8B91432A38723700FBE77B /* Item.swift in Sources */,
 				FF8B912E2A385FB900FBE77B /* LuggageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

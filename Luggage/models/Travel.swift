@@ -21,5 +21,4 @@ final class Travel: Identifiable{
         self.departureDate = departureDate
         self.arrivalDate = arrivalDate
     }
-    
 }
