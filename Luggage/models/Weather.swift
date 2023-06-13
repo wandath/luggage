@@ -7,13 +7,21 @@
 
 import Foundation
 import WeatherKit
+import CoreLocation
 
 final class Weather {
-    var meteo: WeatherCondition
+    var meteo: WeatherCondition // enum qui indique le temps (ex: nuageux, pluvieux, etc)
+    var location: CLLocation
     var travelId: UUID
     
-    init(meteo: WeatherCondition, travelId: UUID) {
+    init(meteo: WeatherCondition, travelId: UUID, location: CLLocation) {
         self.meteo = meteo
         self.travelId = travelId
+        self.location = location
+    }
+    
+    static func getQueryFor(_ location: CLLocation) async {
+    let wService = WeatherService()
+        try? await wService.weather(for: location).dailyForecast
     }
 }
