@@ -8,14 +8,13 @@
 import Foundation
 
 final class Travel: Identifiable{
-    let travelId: UUID
+    let travelId: UUID = UUID()
     var destination: String
     var type: String
     var departureDate: Date
     var arrivalDate: Date
     
     init(destination: String, type: String, departureDate: Date, arrivalDate: Date) {
-        self.travelId = UUID()
         self.destination = destination
         self.type = type
         self.departureDate = departureDate

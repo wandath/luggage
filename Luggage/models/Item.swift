@@ -8,11 +8,11 @@
 import Foundation
 
 final class Item {
-    var object: String
+    var luggageItem: String
     var quantity: Int
     
-    init(object: String, quantity: Int) {
-        self.object = object
+    init(luggageItem: String, quantity: Int) {
+        self.luggageItem = luggageItem
         self.quantity = quantity
     }
 }
