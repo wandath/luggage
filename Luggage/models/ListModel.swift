@@ -7,12 +7,12 @@
 
 import Foundation
 
-final class List {
+final class ListModel {
     var type: String
-    var item: Item
+    var item: ItemModel
     var travelId: UUID
     
-    init(type: String, item: Item, travelId: UUID) {
+    init(type: String, item: ItemModel, travelId: UUID) {
         self.type = type
         self.item = item
         self.travelId = travelId

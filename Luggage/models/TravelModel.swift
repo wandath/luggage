@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Travel: Identifiable{
+final class TravelModel: Identifiable{
     let travelId: UUID = UUID()
     var destination: String
     var type: String

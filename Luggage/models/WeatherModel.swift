@@ -9,7 +9,7 @@ import Foundation
 import WeatherKit
 import CoreLocation
 
-final class Weather {
+final class WeatherModel {
     var meteo: WeatherCondition // enum qui indique le temps (ex: nuageux, pluvieux, etc)
     var location: CLLocation
     var travelId: UUID

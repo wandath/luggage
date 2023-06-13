@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Item {
+final class ItemModel {
     var luggageItem: String
     var quantity: Int
     

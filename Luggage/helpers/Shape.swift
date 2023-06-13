@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Padding: Int {
+enum Padding: CGFloat {
     case Small = 12
     case Regular = 16
     case Large = 32
