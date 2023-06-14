@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TravelFormView: View {
+    @Binding var isPresented: Bool
     @State private var fromDate = Date()
        @State private var toDate = Date()
     @State private var destination : String = ""
@@ -25,12 +26,12 @@ struct TravelFormView: View {
             }
             
             Section(header: Text("Date")) {
-                        DatePicker("De", selection: $fromDate, displayedComponents: .date)
+                        DatePicker("Du", selection: $fromDate, displayedComponents: .date)
                         DatePicker("Au", selection: $toDate, displayedComponents: .date)
                     }
                     
-                    Section(header: Text("Purpose")) {
-                        Picker("Purpose", selection: $selectedPurpose) {
+                    Section(header: Text("Type de voyage")) {
+                        Picker("Type de voyage", selection: $selectedPurpose) {
                             ForEach(purposeOptions, id: \.self) { purpose in
                                 Text(purpose)
                             }
@@ -38,8 +39,8 @@ struct TravelFormView: View {
                         .pickerStyle(SegmentedPickerStyle())
                     }
                     
-                    Section(header: Text("Transport")) {
-                        Picker("Transport", selection: $selectedTransport) {
+                    Section(header: Text("Type de transport")) {
+                        Picker("Type de transport", selection: $selectedTransport) {
                             ForEach(transportOptions, id: \.self) { transport in
                                 Text(transport)
                             }
@@ -55,6 +56,7 @@ struct TravelFormView: View {
                         print("Selected Purpose: \(selectedPurpose)")
                         print("Selected Transport: \(selectedTransport)")
                         print("Destination: \(destination)")
+                        isPresented = false // Close the sheet
                     }) {
                         HStack {
                                Spacer()
@@ -65,8 +67,3 @@ struct TravelFormView: View {
     }
 }
 
-struct TravelFormView_Previews: PreviewProvider {
-    static var previews: some View {
-        TravelFormView()
-    }
-}

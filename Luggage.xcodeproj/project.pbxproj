@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ADE0074A2A3A3319007B053F /* TravelFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE007492A3A3319007B053F /* TravelFormView.swift */; };
+		ADE0074C2A3A3B9E007B053F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0074B2A3A3B9E007B053F /* HomeView.swift */; };
 		FF8B912E2A385FB900FBE77B /* LuggageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B912D2A385FB900FBE77B /* LuggageApp.swift */; };
 		FF8B91302A385FB900FBE77B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B912F2A385FB900FBE77B /* ContentView.swift */; };
 		FF8B91322A385FBB00FBE77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8B91312A385FBB00FBE77B /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		ADE007492A3A3319007B053F /* TravelFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFormView.swift; sourceTree = "<group>"; };
+		ADE0074B2A3A3B9E007B053F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FF8B912A2A385FB900FBE77B /* Luggage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luggage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8B912D2A385FB900FBE77B /* LuggageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuggageApp.swift; sourceTree = "<group>"; };
 		FF8B912F2A385FB900FBE77B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				FF8B914B2A38B33B00FBE77B /* ItemCell.swift */,
 				FF8B91492A38B00700FBE77B /* LuggageList.swift */,
 				ADE007492A3A3319007B053F /* TravelFormView.swift */,
+				ADE0074B2A3A3B9E007B053F /* HomeView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				FF8B91412A3871CE00FBE77B /* ListModel.swift in Sources */,
 				FF8B914A2A38B00700FBE77B /* LuggageList.swift in Sources */,
 				FF8B91432A38723700FBE77B /* ItemModel.swift in Sources */,
+				ADE0074C2A3A3B9E007B053F /* HomeView.swift in Sources */,
 				FF9125292A39B08F005E6925 /* CustomColor.swift in Sources */,
 				FF8B912E2A385FB900FBE77B /* LuggageApp.swift in Sources */,
 			);
