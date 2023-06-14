@@ -10,9 +10,16 @@ import SwiftUI
 struct ItemCell: View {
     var body: some View {
         HStack {
-            Image(systemName: "figure.walk")
-                .resizable()
-                .frame(width: 50, height: 50)
+            ZStack {
+                RoundedRectangle(cornerRadius: 25, style: .continuous)
+                    .fill(CustomColor.lightRed)
+                                .frame(width: 95, height: 80)
+                Image(systemName: "figure.walk")
+                    .resizable()
+                    .frame(width: 50, height: 50)
+                    .padding(Padding.Regular.size())
+            
+            }
             Text("Super")
         }
         .padding(Padding.Regular.size())

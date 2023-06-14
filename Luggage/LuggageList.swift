@@ -9,11 +9,14 @@ import SwiftUI
 
 struct LuggageList: View {
     var body: some View {
-        List {
-            ItemCell()
-            ItemCell()
-            ItemCell()
-            ItemCell()
+        VStack {
+            Text("My Luggage").bold()
+            List {
+                ItemCell()
+                ItemCell()
+                ItemCell()
+                ItemCell()
+            }
         }
     }
 }
