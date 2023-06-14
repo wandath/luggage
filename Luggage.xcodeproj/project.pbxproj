@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADE0074A2A3A3319007B053F /* TravelFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE007492A3A3319007B053F /* TravelFormView.swift */; };
 		FF8B912E2A385FB900FBE77B /* LuggageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B912D2A385FB900FBE77B /* LuggageApp.swift */; };
 		FF8B91302A385FB900FBE77B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B912F2A385FB900FBE77B /* ContentView.swift */; };
 		FF8B91322A385FBB00FBE77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8B91312A385FBB00FBE77B /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADE007492A3A3319007B053F /* TravelFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFormView.swift; sourceTree = "<group>"; };
 		FF8B912A2A385FB900FBE77B /* Luggage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luggage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8B912D2A385FB900FBE77B /* LuggageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuggageApp.swift; sourceTree = "<group>"; };
 		FF8B912F2A385FB900FBE77B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADE007482A3A32CF007B053F /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B914B2A38B33B00FBE77B /* ItemCell.swift */,
+				FF8B91492A38B00700FBE77B /* LuggageList.swift */,
+				ADE007492A3A3319007B053F /* TravelFormView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		FF8B91212A385FB900FBE77B = {
 			isa = PBXGroup;
 			children = (
@@ -67,14 +79,13 @@
 		FF8B912C2A385FB900FBE77B /* Luggage */ = {
 			isa = PBXGroup;
 			children = (
+				ADE007482A3A32CF007B053F /* views */,
 				FF8B91442A38A0B900FBE77B /* helpers */,
 				FF8B913B2A38600800FBE77B /* models */,
 				FF8B912D2A385FB900FBE77B /* LuggageApp.swift */,
 				FF8B912F2A385FB900FBE77B /* ContentView.swift */,
 				FF8B91312A385FBB00FBE77B /* Assets.xcassets */,
 				FF8B91332A385FBB00FBE77B /* Preview Content */,
-				FF8B91492A38B00700FBE77B /* LuggageList.swift */,
-				FF8B914B2A38B33B00FBE77B /* ItemCell.swift */,
 			);
 			path = Luggage;
 			sourceTree = "<group>";
@@ -180,6 +191,7 @@
 				FF8B913F2A38615B00FBE77B /* WeatherModel.swift in Sources */,
 				FF8B913D2A38603500FBE77B /* TravelModel.swift in Sources */,
 				FF8B914C2A38B33B00FBE77B /* ItemCell.swift in Sources */,
+				ADE0074A2A3A3319007B053F /* TravelFormView.swift in Sources */,
 				FF8B91302A385FB900FBE77B /* ContentView.swift in Sources */,
 				FF8B91462A38A0C600FBE77B /* Shape.swift in Sources */,
 				FF8B91412A3871CE00FBE77B /* ListModel.swift in Sources */,
