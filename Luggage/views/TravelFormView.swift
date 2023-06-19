@@ -13,14 +13,14 @@ struct TravelFormView: View {
     @State private var selectedPurpose = "touristique"
        @State private var selectedTransport = "avion"
     @State private var luggageItems: [LugguageModal] = []
-       let purposeOptions = ["touristique", "affaire", "famille"]
+       let purposeOptions = ["touristique", "business", "famille"]
        let transportOptions = ["avion", "bateau", "voiture"]
     @State private var showError = false
     @State private var shouldNavigate = false
     
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
         Form {
             Section(header: Text("Destination")) {
                 TextField("Destination", text: $destination)
@@ -55,7 +55,6 @@ struct TravelFormView: View {
                         do {
                             luggageItems = try await weatherManager.getTemperatureForTravel(transport: selectedTransport, purpose: selectedPurpose, city: destination)
                             // Proceed with the action using the luggageItems array
-                            print("Luggage Items: \(luggageItems)")
                            
                          
                             shouldNavigate = true
@@ -73,8 +72,9 @@ struct TravelFormView: View {
                     }                 }
                 
                 
-                   }
-            
+                   }.navigationDestination(isPresented: $shouldNavigate) {
+                       LuggageList(clothingItems: luggageItems)
+                          }
            
             
             Button(action : {
@@ -85,16 +85,11 @@ struct TravelFormView: View {
                     Text("Annuler")
                     Spacer()
                 }                 }
-            NavigationLink(
-                destination: LuggageList(clothingItems: luggageItems),
-                isActive: $shouldNavigate,
-                label: { EmptyView() }
-            )
-            .hidden()
+       
         }.alert(isPresented: $showError) {
-            Alert(title: Text("Error"), message: Text("Please fill in all the fields."), dismissButton: .default(Text("OK")))
+            Alert(title: Text("Error"), message: Text("Please check the fields."), dismissButton: .default(Text("OK"))) }
         }
-        }
+        
     }
 }
 

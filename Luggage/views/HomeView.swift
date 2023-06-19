@@ -34,8 +34,7 @@ struct HomeView: View {
                   }
               )
               .sheet(isPresented: $isSheetPresented) {
-                  TravelFormView(isPresent: $isSheetPresented)
-              }
+                  TravelFormView(isPresent: $isSheetPresented)              }
           }
       }
 }

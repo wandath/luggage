@@ -7,13 +7,19 @@
 
 
 import Foundation
-import CoreLocation
+
+
+enum FetchDataError: Error {
+    case dataFetchError
+}
 
 class WeatherManager {
     // HTTP request to get the current weather depending on the coordinates we got from LocationManager
+ 
+    
     func getCurrentWeather(city : String) async throws -> ResponseBody {
         // Replace YOUR_API_KEY in the link below with your own
-        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city)&APPID=016eda15433846fd510158266f1e0f9c") else {
+        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city)&APPID=016eda15433846fd510158266f1e0f9c&units=metric") else {
                fatalError("Missing URL")
            }
 
@@ -23,7 +29,7 @@ class WeatherManager {
                let (data, response) = try await URLSession.shared.data(for: urlRequest)
                
                guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
-                   fatalError("Error while fetching data")
+                   throw FetchDataError.dataFetchError
                }
                
                let decodedData = try JSONDecoder().decode(ResponseBody.self, from: data)
@@ -56,14 +62,35 @@ class WeatherManager {
     
     func getTemperatureForTravel(transport: String, purpose: String , city : String) async throws -> [LugguageModal] {
          
-        let weather : ResponseBody = try await getCurrentWeather(city: city)
-        print(weather.name)
+        
+        
         do {
+            let weather : ResponseBody = try await getCurrentWeather(city: city)
+            print(weather.main.feels_like)
             let clothingArray: [LugguageModal] = try loadArrayFromJSON(fileName: "LuggageData")
-            // Use the clothingArray as needed
-            print(clothingArray)
-            return clothingArray
-        } catch {
+            
+            // Filter the clothingArray based on purpose, transport, and temperature criteria
+            let filteredArray = clothingArray.filter { item in
+                let temperature = item.température
+
+                // Check if the item's temperature value is within temperature ± 5
+                let itemTemperature = Int(weather.main.feels_like)
+                let temperatureString: String
+                         if itemTemperature >= 25 {
+                             temperatureString = "hot"
+                         } else if itemTemperature >= 18 && itemTemperature <= 24 {
+                             temperatureString = "warm"
+                         } else {
+                             temperatureString = "cold"
+                         }
+            
+                print(item , temperatureString , transport , purpose)
+                return  temperature.lowercased() == temperatureString.lowercased() && item.outilVoyage.lowercased() == purpose.lowercased() || item.typeVoyage.lowercased() == transport.lowercased()         }
+
+            return filteredArray
+        }
+        
+        catch {
             print("Error loading array from JSON: \(error)")
             throw error
         }

@@ -61,8 +61,8 @@ struct LuggageList: View {
     struct LuggageList_Previews: PreviewProvider {
         static var previews: some View {
                let sampleItems: [LugguageModal] = [
-                LugguageModal(titre: "Sample Item 1", description: "Sample description 1", photo: "sample_photo_1", température: 25, typeVoyage: "Type 1" , outilVoyage : "Avion"),
-                LugguageModal(titre: "Sample Item 2", description: "Sample description 2", photo: "sample_photo_2", température: 30, typeVoyage: "Type 2", outilVoyage : "Avion")
+                LugguageModal(titre: "Sample Item 1", description: "Sample description 1", photo: "sample_photo_1", température: "cold", typeVoyage: "Type 1" , outilVoyage : "Avion"),
+                LugguageModal(titre: "Sample Item 2", description: "Sample description 2", photo: "sample_photo_2", température: "hot", typeVoyage: "Type 2", outilVoyage : "Avion")
                ]
                
                return LuggageList(clothingItems: sampleItems)

@@ -10,7 +10,7 @@ struct LugguageModal: Codable {
     let titre: String
     let description: String
     let photo: String
-    let température: Int
+    let température: String
     let typeVoyage: String
     let outilVoyage: String
 }

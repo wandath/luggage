@@ -1,213 +1,365 @@
 
 {
   "vetements": [
-    {
-      "titre": "T-shirt",
-      "description": "Un t-shirt en coton confortable pour une tenue décontractée par temps chaud.",
-      "photo": "tshirt.jpg",
-      "température": 25,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Blazer",
-      "description": "Un blazer formel adapté aux réunions d'affaires ou aux événements professionnels.",
-      "photo": "blazer.jpg",
-      "température": 20,
-      "typeVoyage": "Affaire",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Maillot de bain",
-      "description": "Un maillot de bain pour profiter de la plage ou de la piscine pendant vos vacances.",
-      "photo": "maillotdebain.jpg",
-      "température": 30,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Bateau"
-    },
-    {
-      "titre": "Robe d'été",
-      "description": "Une robe d'été légère pour une tenue confortable et élégante par temps chaud.",
-      "photo": "robedete.jpg",
-      "température": 22,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Voiture"
-    },
-    {
-      "titre": "Veste",
-      "description": "Une veste polyvalente à superposer lors de températures plus fraîches ou de changements météorologiques inattendus.",
-      "photo": "veste.jpg",
-      "température": 18,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Costume formel",
-      "description": "Un costume formel complet pour les voyages d'affaires ou les occasions formelles.",
-      "photo": "costumeformel.jpg",
-      "température": 28,
-      "typeVoyage": "Affaire",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Jean confortable",
-      "description": "Une paire de jeans confortable pour une tenue décontractée et polyvalente.",
-      "photo": "jean.jpg",
-      "température": 15,
-      "typeVoyage": "Famille",
-      "outilVoyage": "Voiture"
-    },
-    {
-      "titre": "Imperméable",
-      "description": "Un imperméable pour rester au sec par temps pluvieux.",
-      "photo": "impermeable.jpg",
-      "température": 10,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Train"
-    },
-    {
-      "titre": "Baskets décontractées",
-      "description": "Des baskets confortables adaptées à la marche et à la découverte de différentes destinations.",
-      "photo": "baskets.jpg",
-      "température": 20,
-      "typeVoyage": "Famille",
-      "outilVoyage": "Voiture"
-    },
-    {
-      "titre": "Bottes de randonnée",
-      "description": "Des bottes de randonnée solides pour les aventures en plein air et la randonnée sur des terrains accidentés.",
-      "photo": "bottesderandonnee.jpg",
-      "température": 12,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Train"
-    },
-    {
-      "titre": "Chemise",
-      "description": "Une chemise élégante pour une tenue habillée ou professionnelle.",
-      "photo": "chemise.jpg",
-      "température": 20,
-      "typeVoyage": "Affaire",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Shorts",
-      "description": "Des shorts légers et confortables pour les journées chaudes et décontractées.",
-      "photo": "shorts.jpg",
-      "température": 25,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Voiture"
-    },
-    {
-      "titre": "Pull en laine",
-      "description": "Un pull en laine chaud et confortable pour les climats plus frais.",
-      "photo": "pullenlaine.jpg",
-      "température": 10,
-      "typeVoyage": "Famille",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Jupe",
-      "description": "Une jupe féminine et légère pour une tenue élégante pendant les vacances.",
-      "photo": "jupe.jpg",
-      "température": 18,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Bateau"
-    },
-    {
-      "titre": "Chaussures de soirée",
-      "description": "Des chaussures élégantes pour les sorties en soirée ou les dîners spéciaux.",
-      "photo": "chaussuresdesoiree.jpg",
-      "température": 20,
-      "typeVoyage": "Affaire",
-      "outilVoyage": "Voiture"
-    },
-    {
-      "titre": "Chapeau de soleil",
-      "description": "Un chapeau de soleil pour protéger votre visage des rayons du soleil pendant les journées ensoleillées.",
-      "photo": "chapeaudesoleil.jpg",
-      "température": 30,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Chemisier",
-      "description": "Un chemisier léger et élégant pour une tenue féminine et polyvalente.",
-      "photo": "chemisier.jpg",
-      "température": 22,
-      "typeVoyage": "Affaire",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Pantalon habillé",
-      "description": "Un pantalon habillé pour des occasions formelles ou professionnelles.",
-      "photo": "pantalonhabille.jpg",
-      "température": 20,
-      "typeVoyage": "Affaire",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Chaussures de marche",
-      "description": "Des chaussures de marche confortables pour les longues promenades et les visites touristiques.",
-      "photo": "chaussuresdemarche.jpg",
-      "température": 15,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Voiture"
-    },
-    {
-      "titre": "Chemise à manches longues",
-      "description": "Une chemise à manches longues légère pour se protéger du soleil et des moustiques.",
-      "photo": "chemiseamancheslongues.jpg",
-      "température": 25,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Bateau"
-    },
-    {
-      "titre": "Vêtements de sport",
-      "description": "Des vêtements de sport confortables pour les activités physiques pendant le voyage.",
-      "photo": "vetementsdesport.jpg",
-      "température": 20,
-      "typeVoyage": "Famille",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Pull léger",
-      "description": "Un pull léger pour les soirées fraîches ou les climats modérés.",
-      "photo": "pullleger.jpg",
-      "température": 18,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Voiture"
-    },
-    {
-      "titre": "Robe de soirée",
-      "description": "Une robe de soirée élégante pour les occasions spéciales ou les sorties en soirée.",
-      "photo": "robedesoirée.jpg",
-      "température": 20,
-      "typeVoyage": "Affaire",
-      "outilVoyage": "Voiture"
-    },
-    {
-      "titre": "Pantalon décontracté",
-      "description": "Un pantalon décontracté et polyvalent pour une tenue décontractée pendant les vacances.",
-      "photo": "pantalondecontracté.jpg",
-      "température": 22,
-      "typeVoyage": "Touristique",
-      "outilVoyage": "Avion"
-    },
-    {
-      "titre": "Chaussettes",
-      "description": "Des chaussettes confortables pour accompagner vos chaussures dans toutes les situations.",
-      "photo": "chaussettes.jpg",
-      "température": 15,
-      "typeVoyage": "Famille",
-      "outilVoyage": "Train"
-    },
-    {
-      "titre": "Trench-coat",
-      "description": "Un trench-coat élégant pour les jours pluvieux et les climats plus frais.",
-      "photo": "trenchcoat.jpg",
-      "température": 12,
-      "typeVoyage": "Affaire",
-      "outilVoyage": "Avion"
-    }
-  ]
+      {
+        "titre": "Tropical Dress",
+        "description": "A vibrant and breezy dress for hot weather.",
+        "photo": "https://example.com/tropical-dress.jpg",
+        "température": "hot",
+        "typeVoyage": "avion",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Light Jacket",
+        "description": "A lightweight jacket for warm temperatures.",
+        "photo": "https://example.com/light-jacket.jpg",
+        "température": "warm",
+        "typeVoyage": "avion",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Cozy Sweater",
+        "description": "A warm and comfortable sweater for cold weather.",
+        "photo": "https://example.com/cozy-sweater.jpg",
+        "température": "cold",
+        "typeVoyage": "avion",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Beach Shorts",
+        "description": "Casual and lightweight shorts for a beach vacation.",
+        "photo": "https://example.com/beach-shorts.jpg",
+        "température": "hot",
+        "typeVoyage": "avion",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Denim Jacket",
+        "description": "A versatile denim jacket for various travel purposes.",
+        "photo": "https://example.com/denim-jacket.jpg",
+        "température": "warm",
+        "typeVoyage": "avion",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Knit Sweater",
+        "description": "A cozy knit sweater for chilly destinations.",
+        "photo": "https://example.com/knit-sweater.jpg",
+        "température": "cold",
+        "typeVoyage": "avion",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Maxi Dress",
+        "description": "An elegant and versatile maxi dress for all types of travel.",
+        "photo": "https://example.com/maxi-dress.jpg",
+        "température": "hot",
+        "typeVoyage": "avion",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Cotton Shirt",
+        "description": "A comfortable and breathable cotton shirt for warm climates.",
+        "photo": "https://example.com/cotton-shirt.jpg",
+        "température": "warm",
+        "typeVoyage": "avion",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Wool Coat",
+        "description": "A stylish and warm wool coat for cold destinations.",
+        "photo": "https://example.com/wool-coat.jpg",
+        "température": "cold",
+        "typeVoyage": "avion",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Printed Romper",
+        "description": "A playful and comfortable romper for hot weather.",
+        "photo": "https://example.com/printed-romper.jpg",
+        "température": "hot",
+        "typeVoyage": "avion",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Light Cardigan",
+        "description": "A lightweight and versatile cardigan for mild temperatures.",
+        "photo": "https://example.com/light-cardigan.jpg",
+        "température": "warm",
+        "typeVoyage": "avion",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Leather Jacket",
+        "description": "A stylish and edgy leather jacket for cold destinations.",
+        "photo": "https://example.com/leather-jacket.jpg",
+        "température": "cold",
+        "typeVoyage": "avion",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Tank Top",
+        "description": "A basic and versatile tank top for hot weather.",
+        "photo": "https://example.com/tank-top.jpg",
+        "température": "hot",
+        "typeVoyage": "avion",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Button-up Shirt",
+        "description": "A classic button-up shirt for moderate temperatures.",
+        "photo": "https://example.com/button-up-shirt.jpg",
+        "température": "warm",
+        "typeVoyage": "avion",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Fleece Jacket",
+        "description": "A cozy and warm fleece jacket for cold weather.",
+        "photo": "https://example.com/fleece-jacket.jpg",
+        "température": "cold",
+        "typeVoyage": "avion",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Silk Dress",
+        "description": "An elegant and luxurious silk dress for formal occasions.",
+        "photo": "https://example.com/silk-dress.jpg",
+        "température": "hot",
+        "typeVoyage": "avion",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Linens Pants",
+        "description": "Lightweight and breathable linen pants for warm climates.",
+        "photo": "https://example.com/linen-pants.jpg",
+        "température": "warm",
+        "typeVoyage": "avion",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Parka Jacket",
+        "description": "A heavy-duty parka jacket for extreme cold weather.",
+        "photo": "https://example.com/parka-jacket.jpg",
+        "température": "cold",
+        "typeVoyage": "avion",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Swimsuit",
+        "description": "A stylish swimsuit for beach or poolside vacations.",
+        "photo": "https://example.com/swimsuit.jpg",
+        "température": "hot",
+        "typeVoyage": "bateau",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Breathable T-Shirt",
+        "description": "A lightweight and breathable t-shirt for warm temperatures.",
+        "photo": "https://example.com/breathable-tshirt.jpg",
+        "température": "warm",
+        "typeVoyage": "bateau",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Puffer Jacket",
+        "description": "A warm and insulated puffer jacket for cold weather.",
+        "photo": "https://example.com/puffer-jacket.jpg",
+        "température": "cold",
+        "typeVoyage": "bateau",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Casual Shorts",
+        "description": "Casual and comfortable shorts for hot weather.",
+        "photo": "https://example.com/casual-shorts.jpg",
+        "température": "hot",
+        "typeVoyage": "bateau",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Hoodie",
+        "description": "A cozy and versatile hoodie for cooler temperatures.",
+        "photo": "https://example.com/hoodie.jpg",
+        "température": "warm",
+        "typeVoyage": "bateau",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Knit Beanie",
+        "description": "A warm and stylish knit beanie for cold weather.",
+        "photo": "https://example.com/knit-beanie.jpg",
+        "température": "cold",
+        "typeVoyage": "bateau",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Printed Maxi Dress",
+        "description": "A flowy and elegant printed maxi dress for warm temperatures.",
+        "photo": "https://example.com/printed-maxi-dress.jpg",
+        "température": "hot",
+        "typeVoyage": "bateau",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Cargo Pants",
+        "description": "Comfortable and functional cargo pants for various travel purposes.",
+        "photo": "https://example.com/cargo-pants.jpg",
+        "température": "warm",
+        "typeVoyage": "bateau",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Trench Coat",
+        "description": "A classic and stylish trench coat for cooler temperatures.",
+        "photo": "https://example.com/trench-coat.jpg",
+        "température": "cold",
+        "typeVoyage": "bateau",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Sundress",
+        "description": "A lightweight and feminine sundress for hot weather.",
+        "photo": "https://example.com/sundress.jpg",
+        "température": "hot",
+        "typeVoyage": "bateau",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Cotton Shorts",
+        "description": "Comfortable and breathable cotton shorts for warm temperatures.",
+        "photo": "https://example.com/cotton-shorts.jpg",
+        "température": "warm",
+        "typeVoyage": "bateau",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Wool Sweater",
+        "description": "A cozy and warm wool sweater for colder destinations.",
+        "photo": "https://example.com/wool-sweater.jpg",
+        "température": "cold",
+        "typeVoyage": "bateau",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Swim Trunks",
+        "description": "Stylish and comfortable swim trunks for beach or poolside vacations.",
+        "photo": "https://example.com/swim-trunks.jpg",
+        "température": "hot",
+        "typeVoyage": "bateau",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Lightweight Button-up",
+        "description": "A lightweight and versatile button-up shirt for warm climates.",
+        "photo": "https://example.com/lightweight-button-up.jpg",
+        "température": "warm",
+        "typeVoyage": "bateau",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Winter Coat",
+        "description": "A heavy and insulated winter coat for cold destinations.",
+        "photo": "https://example.com/winter-coat.jpg",
+        "température": "cold",
+        "typeVoyage": "bateau",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Silk Blouse",
+        "description": "An elegant and lightweight silk blouse for business travel.",
+        "photo": "https://example.com/silk-blouse.jpg",
+        "température": "hot",
+        "typeVoyage": "bateau",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Chinos",
+        "description": "Classic and versatile chinos for a polished look.",
+        "photo": "https://example.com/chinos.jpg",
+        "température": "warm",
+        "typeVoyage": "bateau",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Overcoat",
+        "description": "A sophisticated and warm overcoat for cold temperatures.",
+        "photo": "https://example.com/overcoat.jpg",
+        "température": "cold",
+        "typeVoyage": "bateau",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Sleeveless Dress",
+        "description": "A versatile and comfortable sleeveless dress for hot weather.",
+        "photo": "https://example.com/sleeveless-dress.jpg",
+        "température": "hot",
+        "typeVoyage": "voiture",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Short-sleeve Shirt",
+        "description": "A casual and breathable short-sleeve shirt for warm temperatures.",
+        "photo": "https://example.com/short-sleeve-shirt.jpg",
+        "température": "warm",
+        "typeVoyage": "voiture",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Turtleneck Sweater",
+        "description": "A cozy and stylish turtleneck sweater for colder destinations.",
+        "photo": "https://example.com/turtleneck-sweater.jpg",
+        "température": "cold",
+        "typeVoyage": "voiture",
+        "outilVoyage": "touristique"
+      },
+      {
+        "titre": "Rompers",
+        "description": "Comfortable and trendy rompers for hot weather.",
+        "photo": "https://example.com/rompers.jpg",
+        "température": "hot",
+        "typeVoyage": "voiture",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Hawaiian Shirt",
+        "description": "A fun and vibrant Hawaiian shirt for a tropical vacation.",
+        "photo": "https://example.com/hawaiian-shirt.jpg",
+        "température": "warm",
+        "typeVoyage": "voiture",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Down Jacket",
+        "description": "A warm and lightweight down jacket for cold weather.",
+        "photo": "https://example.com/down-jacket.jpg",
+        "température": "cold",
+        "typeVoyage": "voiture",
+        "outilVoyage": "famille"
+      },
+      {
+        "titre": "Silk Blazer",
+        "description": "An elegant and polished silk blazer for business trips.",
+        "photo": "https://example.com/silk-blazer.jpg",
+        "température": "hot",
+        "typeVoyage": "voiture",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Jeans",
+        "description": "Classic and versatile jeans for a casual or dressy look.",
+        "photo": "https://example.com/jeans.jpg",
+        "température": "warm",
+        "typeVoyage": "voiture",
+        "outilVoyage": "business"
+      },
+      {
+        "titre": "Peacoat",
+        "description": "A stylish and warm peacoat for colder destinations.",
+        "photo": "https://example.com/peacoat.jpg",
+        "température": "cold",
+        "typeVoyage": "voiture",
+        "outilVoyage": "business"
+      }
+    ]
 }
