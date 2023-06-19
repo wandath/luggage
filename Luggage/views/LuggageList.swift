@@ -26,11 +26,18 @@ struct LuggageList: View {
             
             var body: some View {
                 VStack(alignment: .leading, spacing: 8) {
-                    Image(item.photo)
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(height: 200)
-                        .cornerRadius(12)
+                    AsyncImage(url: URL(string: item.photo)) { image in
+                        image
+                            .resizable()
+                            .scaledToFill()
+                            .frame(height: 200)
+                            .cornerRadius(10)
+                    } placeholder: {
+                        Color.gray
+                            .frame(height: 200)
+                            .cornerRadius(10)
+                    }
+                    .padding()
                     
                     VStack(alignment: .leading, spacing: 4) {
                         Text(item.titre)
