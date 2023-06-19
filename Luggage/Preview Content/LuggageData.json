@@ -1,0 +1,213 @@
+
+{
+  "vetements": [
+    {
+      "titre": "T-shirt",
+      "description": "Un t-shirt en coton confortable pour une tenue décontractée par temps chaud.",
+      "photo": "tshirt.jpg",
+      "température": 25,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Blazer",
+      "description": "Un blazer formel adapté aux réunions d'affaires ou aux événements professionnels.",
+      "photo": "blazer.jpg",
+      "température": 20,
+      "typeVoyage": "Affaire",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Maillot de bain",
+      "description": "Un maillot de bain pour profiter de la plage ou de la piscine pendant vos vacances.",
+      "photo": "maillotdebain.jpg",
+      "température": 30,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Bateau"
+    },
+    {
+      "titre": "Robe d'été",
+      "description": "Une robe d'été légère pour une tenue confortable et élégante par temps chaud.",
+      "photo": "robedete.jpg",
+      "température": 22,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Voiture"
+    },
+    {
+      "titre": "Veste",
+      "description": "Une veste polyvalente à superposer lors de températures plus fraîches ou de changements météorologiques inattendus.",
+      "photo": "veste.jpg",
+      "température": 18,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Costume formel",
+      "description": "Un costume formel complet pour les voyages d'affaires ou les occasions formelles.",
+      "photo": "costumeformel.jpg",
+      "température": 28,
+      "typeVoyage": "Affaire",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Jean confortable",
+      "description": "Une paire de jeans confortable pour une tenue décontractée et polyvalente.",
+      "photo": "jean.jpg",
+      "température": 15,
+      "typeVoyage": "Famille",
+      "outilVoyage": "Voiture"
+    },
+    {
+      "titre": "Imperméable",
+      "description": "Un imperméable pour rester au sec par temps pluvieux.",
+      "photo": "impermeable.jpg",
+      "température": 10,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Train"
+    },
+    {
+      "titre": "Baskets décontractées",
+      "description": "Des baskets confortables adaptées à la marche et à la découverte de différentes destinations.",
+      "photo": "baskets.jpg",
+      "température": 20,
+      "typeVoyage": "Famille",
+      "outilVoyage": "Voiture"
+    },
+    {
+      "titre": "Bottes de randonnée",
+      "description": "Des bottes de randonnée solides pour les aventures en plein air et la randonnée sur des terrains accidentés.",
+      "photo": "bottesderandonnee.jpg",
+      "température": 12,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Train"
+    },
+    {
+      "titre": "Chemise",
+      "description": "Une chemise élégante pour une tenue habillée ou professionnelle.",
+      "photo": "chemise.jpg",
+      "température": 20,
+      "typeVoyage": "Affaire",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Shorts",
+      "description": "Des shorts légers et confortables pour les journées chaudes et décontractées.",
+      "photo": "shorts.jpg",
+      "température": 25,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Voiture"
+    },
+    {
+      "titre": "Pull en laine",
+      "description": "Un pull en laine chaud et confortable pour les climats plus frais.",
+      "photo": "pullenlaine.jpg",
+      "température": 10,
+      "typeVoyage": "Famille",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Jupe",
+      "description": "Une jupe féminine et légère pour une tenue élégante pendant les vacances.",
+      "photo": "jupe.jpg",
+      "température": 18,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Bateau"
+    },
+    {
+      "titre": "Chaussures de soirée",
+      "description": "Des chaussures élégantes pour les sorties en soirée ou les dîners spéciaux.",
+      "photo": "chaussuresdesoiree.jpg",
+      "température": 20,
+      "typeVoyage": "Affaire",
+      "outilVoyage": "Voiture"
+    },
+    {
+      "titre": "Chapeau de soleil",
+      "description": "Un chapeau de soleil pour protéger votre visage des rayons du soleil pendant les journées ensoleillées.",
+      "photo": "chapeaudesoleil.jpg",
+      "température": 30,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Chemisier",
+      "description": "Un chemisier léger et élégant pour une tenue féminine et polyvalente.",
+      "photo": "chemisier.jpg",
+      "température": 22,
+      "typeVoyage": "Affaire",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Pantalon habillé",
+      "description": "Un pantalon habillé pour des occasions formelles ou professionnelles.",
+      "photo": "pantalonhabille.jpg",
+      "température": 20,
+      "typeVoyage": "Affaire",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Chaussures de marche",
+      "description": "Des chaussures de marche confortables pour les longues promenades et les visites touristiques.",
+      "photo": "chaussuresdemarche.jpg",
+      "température": 15,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Voiture"
+    },
+    {
+      "titre": "Chemise à manches longues",
+      "description": "Une chemise à manches longues légère pour se protéger du soleil et des moustiques.",
+      "photo": "chemiseamancheslongues.jpg",
+      "température": 25,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Bateau"
+    },
+    {
+      "titre": "Vêtements de sport",
+      "description": "Des vêtements de sport confortables pour les activités physiques pendant le voyage.",
+      "photo": "vetementsdesport.jpg",
+      "température": 20,
+      "typeVoyage": "Famille",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Pull léger",
+      "description": "Un pull léger pour les soirées fraîches ou les climats modérés.",
+      "photo": "pullleger.jpg",
+      "température": 18,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Voiture"
+    },
+    {
+      "titre": "Robe de soirée",
+      "description": "Une robe de soirée élégante pour les occasions spéciales ou les sorties en soirée.",
+      "photo": "robedesoirée.jpg",
+      "température": 20,
+      "typeVoyage": "Affaire",
+      "outilVoyage": "Voiture"
+    },
+    {
+      "titre": "Pantalon décontracté",
+      "description": "Un pantalon décontracté et polyvalent pour une tenue décontractée pendant les vacances.",
+      "photo": "pantalondecontracté.jpg",
+      "température": 22,
+      "typeVoyage": "Touristique",
+      "outilVoyage": "Avion"
+    },
+    {
+      "titre": "Chaussettes",
+      "description": "Des chaussettes confortables pour accompagner vos chaussures dans toutes les situations.",
+      "photo": "chaussettes.jpg",
+      "température": 15,
+      "typeVoyage": "Famille",
+      "outilVoyage": "Train"
+    },
+    {
+      "titre": "Trench-coat",
+      "description": "Un trench-coat élégant pour les jours pluvieux et les climats plus frais.",
+      "photo": "trenchcoat.jpg",
+      "température": 12,
+      "typeVoyage": "Affaire",
+      "outilVoyage": "Avion"
+    }
+  ]
+}

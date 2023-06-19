@@ -8,15 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        HStack(alignment: .top, spacing: 12, content: {
-            Text("Element 1 Spacing")
-            Text("Element 2 Spacing")
-            Text("Element 3 Spacing")
-        })
-        
-        
-    }
+
+    
+    
+       var body: some View {
+         HomeView()
+       }
+       
+     
 }
 
 struct ContentView_Previews: PreviewProvider {

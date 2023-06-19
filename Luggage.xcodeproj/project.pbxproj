@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD82FA102A3F3FEE0026B62F /* ModalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD82FA0F2A3F3FEE0026B62F /* ModalData.swift */; };
+		AD82FA122A3F404A0026B62F /* weatherdata.json in Resources */ = {isa = PBXBuildFile; fileRef = AD82FA112A3F404A0026B62F /* weatherdata.json */; };
+		AD82FA142A3F411F0026B62F /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD82FA132A3F411F0026B62F /* WeatherView.swift */; };
+		AD82FA162A3F445F0026B62F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD82FA152A3F445F0026B62F /* LoadingView.swift */; };
+		AD82FA182A3F6CAB0026B62F /* LuggageData.json in Resources */ = {isa = PBXBuildFile; fileRef = AD82FA172A3F6CAB0026B62F /* LuggageData.json */; };
+		AD82FA1A2A3F70540026B62F /* LugguageModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD82FA192A3F70540026B62F /* LugguageModal.swift */; };
+		AD82FA1C2A3F7F5F0026B62F /* ModalLuggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD82FA1B2A3F7F5F0026B62F /* ModalLuggage.swift */; };
+		AD82FA1E2A3FE8A50026B62F /* AsyncFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD82FA1D2A3FE8A50026B62F /* AsyncFunction.swift */; };
 		ADE0074A2A3A3319007B053F /* TravelFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE007492A3A3319007B053F /* TravelFormView.swift */; };
 		ADE0074C2A3A3B9E007B053F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0074B2A3A3B9E007B053F /* HomeView.swift */; };
+		ADE007C22A3D405D007B053F /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE007C12A3D405D007B053F /* WeatherManager.swift */; };
 		FF8B912E2A385FB900FBE77B /* LuggageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B912D2A385FB900FBE77B /* LuggageApp.swift */; };
 		FF8B91302A385FB900FBE77B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B912F2A385FB900FBE77B /* ContentView.swift */; };
 		FF8B91322A385FBB00FBE77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8B91312A385FBB00FBE77B /* Assets.xcassets */; };
@@ -24,8 +33,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD82FA0F2A3F3FEE0026B62F /* ModalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalData.swift; sourceTree = "<group>"; };
+		AD82FA112A3F404A0026B62F /* weatherdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherdata.json; sourceTree = "<group>"; };
+		AD82FA132A3F411F0026B62F /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		AD82FA152A3F445F0026B62F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		AD82FA172A3F6CAB0026B62F /* LuggageData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LuggageData.json; sourceTree = "<group>"; };
+		AD82FA192A3F70540026B62F /* LugguageModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugguageModal.swift; sourceTree = "<group>"; };
+		AD82FA1B2A3F7F5F0026B62F /* ModalLuggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalLuggage.swift; sourceTree = "<group>"; };
+		AD82FA1D2A3FE8A50026B62F /* AsyncFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncFunction.swift; sourceTree = "<group>"; };
 		ADE007492A3A3319007B053F /* TravelFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFormView.swift; sourceTree = "<group>"; };
 		ADE0074B2A3A3B9E007B053F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ADE007C12A3D405D007B053F /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		FF8B912A2A385FB900FBE77B /* Luggage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luggage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8B912D2A385FB900FBE77B /* LuggageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuggageApp.swift; sourceTree = "<group>"; };
 		FF8B912F2A385FB900FBE77B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,8 +77,19 @@
 				FF8B91492A38B00700FBE77B /* LuggageList.swift */,
 				ADE007492A3A3319007B053F /* TravelFormView.swift */,
 				ADE0074B2A3A3B9E007B053F /* HomeView.swift */,
+				AD82FA132A3F411F0026B62F /* WeatherView.swift */,
+				AD82FA152A3F445F0026B62F /* LoadingView.swift */,
+				AD82FA1D2A3FE8A50026B62F /* AsyncFunction.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		ADE007C02A3D4045007B053F /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				ADE007C12A3D405D007B053F /* WeatherManager.swift */,
+			);
+			path = managers;
 			sourceTree = "<group>";
 		};
 		FF8B91212A385FB900FBE77B = {
@@ -82,6 +111,7 @@
 		FF8B912C2A385FB900FBE77B /* Luggage */ = {
 			isa = PBXGroup;
 			children = (
+				ADE007C02A3D4045007B053F /* managers */,
 				ADE007482A3A32CF007B053F /* views */,
 				FF8B91442A38A0B900FBE77B /* helpers */,
 				FF8B913B2A38600800FBE77B /* models */,
@@ -97,6 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				FF8B91342A385FBB00FBE77B /* Preview Assets.xcassets */,
+				AD82FA0F2A3F3FEE0026B62F /* ModalData.swift */,
+				AD82FA112A3F404A0026B62F /* weatherdata.json */,
+				AD82FA172A3F6CAB0026B62F /* LuggageData.json */,
+				AD82FA1B2A3F7F5F0026B62F /* ModalLuggage.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -108,6 +142,7 @@
 				FF8B913E2A38615B00FBE77B /* WeatherModel.swift */,
 				FF8B91402A3871CE00FBE77B /* ListModel.swift */,
 				FF8B91422A38723700FBE77B /* ItemModel.swift */,
+				AD82FA192A3F70540026B62F /* LugguageModal.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -181,6 +216,8 @@
 			files = (
 				FF8B91352A385FBB00FBE77B /* Preview Assets.xcassets in Resources */,
 				FF8B91322A385FBB00FBE77B /* Assets.xcassets in Resources */,
+				AD82FA182A3F6CAB0026B62F /* LuggageData.json in Resources */,
+				AD82FA122A3F404A0026B62F /* weatherdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,18 +228,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD82FA142A3F411F0026B62F /* WeatherView.swift in Sources */,
 				FF8B913F2A38615B00FBE77B /* WeatherModel.swift in Sources */,
 				FF8B913D2A38603500FBE77B /* TravelModel.swift in Sources */,
 				FF8B914C2A38B33B00FBE77B /* ItemCell.swift in Sources */,
 				ADE0074A2A3A3319007B053F /* TravelFormView.swift in Sources */,
+				AD82FA162A3F445F0026B62F /* LoadingView.swift in Sources */,
+				ADE007C22A3D405D007B053F /* WeatherManager.swift in Sources */,
+				AD82FA102A3F3FEE0026B62F /* ModalData.swift in Sources */,
+				AD82FA1C2A3F7F5F0026B62F /* ModalLuggage.swift in Sources */,
 				FF8B91302A385FB900FBE77B /* ContentView.swift in Sources */,
 				FF8B91462A38A0C600FBE77B /* Shape.swift in Sources */,
 				FF8B91412A3871CE00FBE77B /* ListModel.swift in Sources */,
 				FF8B914A2A38B00700FBE77B /* LuggageList.swift in Sources */,
 				FF8B91432A38723700FBE77B /* ItemModel.swift in Sources */,
+				AD82FA1E2A3FE8A50026B62F /* AsyncFunction.swift in Sources */,
 				ADE0074C2A3A3B9E007B053F /* HomeView.swift in Sources */,
 				FF9125292A39B08F005E6925 /* CustomColor.swift in Sources */,
 				FF8B912E2A385FB900FBE77B /* LuggageApp.swift in Sources */,
+				AD82FA1A2A3F70540026B62F /* LugguageModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
